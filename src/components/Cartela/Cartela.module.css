@@ -1,0 +1,56 @@
+.cartela {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    width: 70%;
+}
+
+.cartela div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+    border: 1px solid #cfb018;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cartela div:hover{
+    background-color: #cfb018;
+    color: #000;
+    transform: scale(1.5);
+}
+
+.selecionado {
+    background-color: #cfb018;
+    color: #000;
+
+}
+
+.comprado{
+    background-color: #ff4d4d; /* Exemplo de cor para número já comprado */
+    cursor: not-allowed;
+}
+
+.legenda {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #cfb018;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ button:hover {
+    background-color: #e6e6e6;
+}
+

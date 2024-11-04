@@ -1,0 +1,59 @@
+.form {
+    background-color: #cfb018;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 8px 10px rgb(255, 187, 0);
+    width: 30%;
+    text-align: center;
+}
+
+.form h2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.form label {
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #cfb018;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form button:hover {
+    background-color: #e6e6e6;
+}
+
+.form .loginButton{
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #cfb018;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
